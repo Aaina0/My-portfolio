@@ -66,7 +66,7 @@ function ContactPage() {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex  flex-col gap-8 justify-center p-24"
+          className="h-auto lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-base flex flex-col gap-4 justify-center p-4 lg:p-12"
         >
           <span>Dear Aaina Najaf,</span>
           <textarea
